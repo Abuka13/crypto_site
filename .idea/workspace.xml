@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19ef7c83-5068-416f-9f34-aff43c6eaa71" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/django_app/translation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/components/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/components/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/components/paginator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/crypto/coins.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/crypto/exchanges.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/crypto/solidity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/money.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post100_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post10_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post11_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post12_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post13_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post14_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post15_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post16_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post17_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post18_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post19_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post1_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post20_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post21_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post22_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post23_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post24_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post25_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post26_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post27_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post28_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post29_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post2_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post30_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post31_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post32_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post332_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post333_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post334_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post335_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post336_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post337_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post338_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post339_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post33_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post340_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post341_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post342_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post343_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post344_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post345_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post346_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post34_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post35_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post36_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post37_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post38_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post39_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post3_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post40_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post41_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post42_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post43_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post44_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post45_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post46_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post47_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post48_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post49_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post4_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post50_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post51_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post52_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post53_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post54_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post55_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post56_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post57_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post58_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post59_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post5_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post60_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post61_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post62_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post63_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post64_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post65_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post66_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post67_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post68_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post69_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post6_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post70_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post71_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post72_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post73_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post74_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post75_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post76_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post77_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post78_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post79_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post7_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post80_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post81_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post82_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post83_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post84_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post85_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post86_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post87_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post88_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post89_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post8_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post90_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post91_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post92_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post93_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post94_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post95_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post96_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post97_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post98_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post99_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post9_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/templates/posts/post80_detail.html" root0="SKIP_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2ebeiHdwCAEoUZiqAKz3R1Ck2VS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Documents/GitHub/crypto_site/manage.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19ef7c83-5068-416f-9f34-aff43c6eaa71" name="Changes" comment="" />
+      <created>1712177830396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712177830396</updated>
+      <workItem from="1712177831505" duration="3400000" />
+      <workItem from="1712230081258" duration="5110000" />
+      <workItem from="1712310333624" duration="2486000" />
+      <workItem from="1712393108899" duration="15663000" />
+      <workItem from="1712483380391" duration="7580000" />
+      <workItem from="1712584791957" duration="30898000" />
+      <workItem from="1712726374667" duration="594000" />
+      <workItem from="1712751583287" duration="12033000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
