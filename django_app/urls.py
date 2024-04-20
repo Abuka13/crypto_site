@@ -3,15 +3,15 @@ from django_app import views
 urlpatterns = [
     path("home/", views.home, name="home"),
     path("nav/", views.nav, name="nav"),
-    path("posts/", views.posts, name="posts"),
-    path("money/", views.money, name="money"),
-    path("blockchain/", views.blockchain, name="blockchain"),
-path("defi/", views.defi, name="defi"),
-path("coins/", views.coins, name="coins"),
-path("solidity/", views.solidity, name="solidity"),
-path("exchanges/", views.exchanges, name="exchanges"),
-
+    path("home/posts/", views.posts, name="posts"),
+    path("home/money/", views.money, name="money"),
+    path("home/blockchain/", views.blockchain, name="blockchain"),
+path("home/defi/", views.defi, name="defi"),
+path("home/coins/", views.coins, name="coins"),
+path("home/solidity/", views.solidity, name="solidity"),
+path("home/exchanges/", views.exchanges, name="exchanges"),
+path("home/vyper/", views.vyper, name="vyper"),
 
 #TODO
-    path("posts/<str:pk>/", views.post1, name="post1"),
+    path("home/posts/<str:pk>/", views.post1, name="post1"),
     ]

@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <style>
 
@@ -15,7 +17,9 @@ $color-accent: desaturate(navy,80%);
 	font-family: raleway_f;
 	src: url(../fonts/raleway-regular.woff2);
 }
-
+#arrow {
+    color:black;
+}
 @font-face {
 	font-family: raleway_f;
 	src: url(../fonts/raleway-black.woff2);
@@ -31,163 +35,19 @@ $color-accent: desaturate(navy,80%);
 body {
   background: #e5e5e5;
   font-family: 'Lexend Exa', sans-serif;
-    height: 1500px;
+
 }
 
-nav {
-  position: absolute; z-index: 5
-  top: 15px;
-  left: 50%;
-  position:fixed;
-  transform: translateX(-50%);
-  display: inline-block;
-  border: 2px solid #EBECF1;
-  border-radius: 30px;
-  animation: slide-in 1s ease-out;
+header {
+    margin-top:-1.77%;
 }
 
-ul {
-  position: relative;
-  display: flex;
-  flex: 1 1 auto;
-  margin: 0;
-  padding: 0 30px;
-  list-style-type: none;
-  li:not(:last-child) {
-    margin-right: 40px;
-  }
-  li {
-    border: 2px solid transparent;
-    border-radius: 5px;
-    padding: 10px;
-    transition: background 0.2s;
-    a {
-      color: #23d82c;
-      text-decoration: none;
-      text-transform: uppercase;
-      transition: color 0.2s;
-    }
-    ul {
-      visibility: hidden;
-      opacity: 0;
-      position: absolute;
-      display: block;
-      margin: 12px -12px;
-      padding: 0;
-      background: #168606;
-      border: 2px solid #168606;
-      border-right: 2px solid #168606;
-      border-bottom: 2px solid #168606;
-      border-radius: 5px;
-      transition: opacity 0.2s, visibility 0.2s;
-      li {
-        margin: -2px 0 0 -2px;
-        width: calc(100% - 20px);
-        line-height: 1.7;
-        a {
-          color: #23ef45;
-        }
-      }
-    }
-    &:hover {
-      background: #23ef45;
-      border: 2px solid #23ef45;
-      border-right: 2px solid #23ef45;
-      border-bottom: 2px solid #23ef45;
-      a {
-        color: #F9F8FD;
-      }
-      ul {
-        visibility: visible;
-        opacity: 1;
-        box-shadow: 0px 3px 5px 2px #EBECF1;
-        li {
-          a {
-            color: #F9F8FD;
-          }
-        }
-      }
-    }
-  }
+@media (max-width: 576px) {
+        header {
+    margin-top:-5%;
 }
-
-@keyframes slide-in {
-  0% {
-    top: -50px;
-  }
-  40% {
-    top: 20px;
-  }
-  70% {
-    top: 10px;
-  }
-  100% {
-    top: 15px;
-  }
-}
-
- .image-container {
-        position: relative;
-        display: inline-block;
-        width: 100%;
-        height: 550px;
-        margin-top: 8%;
-
     }
 
-    .image1 {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -999;
-    }
-
-    .image2 {
-        position: absolute;
-        top: 25%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .image-container::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.3); /* цвет и прозрачность темного фона */
-    }
-
-    .image-container h1 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        font-size: 50px; /* размер шрифта */
-    }
-    .element-big  {
-  width: 100%;
-  height: 200px;
-}
-
-.element-animation {
-  margin: 2rem 0;
-  font-size: 3rem;
-
-  /* Скроем элемент в начальном состоянии */
-  opacity: 0;
-  transform: translateY(20px);
-}
-
-.element-animation.element-show {
-  opacity: 1;
-  transition: all 1.5s;
-  transform: translateY(0%);
-}
 *,
 *::before,
 *::after {
@@ -225,538 +85,634 @@ a {
 
 
 
-.container{
-    width: 1000px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-.container .card{
-    position: relative;
-    cursor: pointer;
-    border: none;
+.text-center {
+  text-align: center;
 }
 
-.container .card .face{
-    width: 300px;
-    height: 200px;
-    transition: 0.5s;
+.color-white {
+  color: #fff;
 }
 
-.container .card .face.face1{
-    position: relative;
-    background: #8a9d57;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 4;
-    transform: translateY(100px);
-}
-
-.container .card:hover .face.face1{
-    background: #1a5210;
-    transform: translateY(0);
-}
-
-.container .card .face.face1 .content{
-    opacity: 0.5;
-    transition: 0.5s;
-}
-
-.container .card:hover .face.face1 .content{
-    opacity: 1;
-}
-
-.container .card .face.face1 .content img{
-    max-width: 200px;
-}
-
-.container .card .face.face1 .content h3{
-    margin: 10px 0 0;
-    padding: 0;
-    color: #fff;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-.container .card .face.face2{
-    position: relative;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
-    transform: translateY(-100px);
-}
-
-.container .card:hover .face.face2{
-    transform: translateY(0);
-}
-
-.container .card .face.face2 .content p{
-    margin: 0;
-    padding: 0;
-}
-
-.container .card .face.face2 .content a{
-    margin: 15px 0 0;
-    display:  inline-block;
-    text-decoration: none;
-    font-weight: 900;
-    color: #333;
-    padding: 5px;
-    border: 1px solid #333;
-}
-
-.container .card .face.face2 .content a:hover{
-    background: #333;
-    color: #fff;
-}
-.container3{
-    * {
-  box-sizing: border-box;
-}
-
-body {
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
-  background: white;
-  overflow: hidden;
-}
-
-.icon {
-  width: 96px;
-  aspect-ratio: 1;
-  position: relative;
-}
-
-.icon :is(img, canvas) {
-  position: absolute;
-  inset: 0;
-}
-
-.icon img {
-  filter: contrast(0);
-}
-
-canvas {
-  width: 100%;
-  height: 100%;
-  aspect-ratio: 1;
-  mask: var(--icon);
-  opacity: var(--active, 0);
-  transition: opacity 0.2s;
-}
-
-h1 {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  margin: 0;
-  font-family: sans-serif;
-  color: transparent;
-  background: linear-gradient(hsl(0 0% 90%), hsl(0 0% 50%));
-  -webkit-background-clip: text;
-}
-
-.icons {
+.box-container {
+  align-items: center;
   display: flex;
-  gap: 2rem;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 35px 15px;
+  width: 100%;
 }
 
-.icon:hover {
-  --active: 1;
+@media screen and (min-width:1380px) {
+  .box-container {
+    flex-direction: row
+  }
 }
 
-/* Exploding view stuff */
-body {
-/*   perspective: 100vmin; */
-  --step: 0.2s;
+.box-item {
+  position: relative;
+  -webkit-backface-visibility: hidden;
+  width: 315px;
+  margin-bottom: 35px;
+  max-width: 100%;
 }
 
-* {
+.flip-box {
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+
+.flip-box-front,
+.flip-box-back {
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  min-height: 400px;
+  -ms-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+  transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+  -webkit-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  -ms-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 
-[data-exploded] .icons {
-  pointer-events: none;
-  transform: rotateX(60deg) rotateY(0deg) rotate(25deg);
+.flip-box:hover .flip-box-front {
+  -ms-transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
-[data-exploded] .icons:first-of-type img {
-  opacity: 0;
-  transition: opacity 0s;
-}
-
-.icons:last-of-type .icon img {
-  transform: translate3d(0, 0, 0);
-}
-[data-exploded] .icons .icon img {
-  transform: translate3d(0, 0, 200px);
-}
-
-[data-exploded] .icon {
-  --active: 1;
-}
-
-/* Timing  */
-[data-exploded] .icons {
-  transition: transform 0.2s 0s;
-}
-[data-exploded] .icons--exploder .icon img {
-  transition: transform 0.2s 0.4s;
-}
-[data-exploded] .icons--exploder span:last-of-type {
-  transition: opacity 0.2s 0.8s;
-}
-[data-exploded] .icons--exploder span:nth-of-type(2),
-[data-exploded] .icons--exploder canvas {
-  transition: opacity 0.2s 1.2s;
-}
-
-[data-exploded] .icons:first-of-type canvas,
-[data-exploded] .icons--exploder span:nth-of-type(1) {
-  transition: opacity 0.2s 1.6s;
-}
-
-/* Then reverse them */
-[data-imploding] .icons {
-  transition: transform 0.2s 2s;
-}
-[data-imploding] .icons .icon img {
-  transition: transform 0.2s 1.6s;
-}
-[data-imploding] .icons--exploder span:last-of-type {
-  transition: opacity 0.2s 1.2s;
-}
-[data-imploding] .icons--exploder span:nth-of-type(2),
-[data-imploding] .icons--exploder canvas {
-  transition: opacity 0.2s 0.8s;
-}
-
-[data-imploding] .icons:first-of-type canvas,
-[data-imploding] .icons--exploder span:nth-of-type(1) {
-  transition: opacity 0.2s 0.4s;
-}
-
-img {
-  user-select: none;
-}
-
-.icons {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-}
-
-.icons--exploder canvas {
-  transform: translate3d(0, 0, 100px);
-}
-
-.icons--exploder {
-  pointer-events: none;
-  z-index: -1;
-}
-
-.icons--exploder canvas {
-  mask: none;
-}
-
-.icons--exploder span {
+.flip-box-back {
   position: absolute;
-  left: 100%;
-  color: white;
-  top: 50%;
-  translate: 1rem -50%;
-  font-size: 2rem;
-  white-space: nowrap;
-}
-
-[data-exploded] .icons--exploder {
-  --active: 1;
-}
-
-.icons--exploder span {
-  opacity: var(--active, 0);
-  transition: opacity 0.2s;
-}
-
-.icons--exploder span:nth-of-type(2) {
-  transform: translate3d(0, 0, 100px);
-}
-
-.icons--exploder span:nth-of-type(3) {
-  transform: translate3d(0, 0, 200px);
-}
-"
-}
-
-.container4 {
-    body {
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-    width: 100%;
-    background: #07051a;
-}
-
-form{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    transition: all 1s;
-    width: 50px;
-    height: 50px;
-    background: white;
-    box-sizing: border-box;
-    border-radius: 25px;
-    border: 4px solid white;
-    padding: 5px;
-}
-
-input{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;;
-    height: 42.5px;
-    line-height: 30px;
-    outline: 0;
-    border: 0;
-    display: none;
-    font-size: 1em;
-    border-radius: 20px;
-    padding: 0 20px;
-}
-
-.fa{
-    box-sizing: border-box;
-    padding: 10px;
-    width: 42.5px;
-    height: 42.5px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 50%;
-    color: #07051a;
-    text-align: center;
-    font-size: 1.2em;
-    transition: all 1s;
-}
-
-form:hover,
-form:valid{
-    width: 200px;
-    cursor: pointer;
-}
-
-form:hover input,
-form:valid input{
-    display: block;
-}
-
-form:hover .fa,
-form:valid .fa{
-    background: #07051a;
-    color: white;
-}
-
-
-a {
-  display: none;
-  position: absolute;
-  top: 70px;
-  bottom:0;
+  top: 0;
   left: 0;
-  right: 0;
-  font-size: 20px;
-  color: white;
-  text-align: center;
   width: 100%;
+
+  -ms-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
-form:valid a {
-  display: block;
+.flip-box:hover .flip-box-back {
+  -ms-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
+
+.flip-box .inner {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 60px;
+  outline: 1px solid transparent;
+  -webkit-perspective: inherit;
+  perspective: inherit;
+  z-index: 2;
+
+  transform: translateY(-50%) translateZ(60px) scale(.94);
+  -webkit-transform: translateY(-50%) translateZ(60px) scale(.94);
+  -ms-transform: translateY(-50%) translateZ(60px) scale(.94);
+  top: 50%;
 }
+
+.flip-box-header {
+  font-size: 34px;
+}
+
+.flip-box p {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.flip-box-img {
+  margin-top: 25px;
+  margin-left:30%;
+}
+
+.flip-box-button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 25px;
+  padding: 15px 20px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+* {
+            border: 0;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            color: var(--primary);
+            transition: color var(--trans-dur);
+            text-decoration: none;
+
+
+        }
+        body {
+            overflow-x: hidden;
+            background-color: #ffffff; /* Белый фон */
+            color: #000000; /* Черный цвет текста */
+        }
+        :root {
+            --hue: 223;
+            --bg: hsl(var(--hue),10%,90%);
+            --fg: hsl(var(--hue),10%,10%);
+            --primary: hsl(var(--hue),90%,50%);
+            --trans-dur: 0.3s;
+            --trans-timing: cubic-bezier(0.65,0,0.35,1);
+
+        }
+
+
+        body,
+
+        h1 {
+            font-size: 2em;
+            margin: 0 0 3rem;
+            padding-top: 1.5rem;
+            text-align: center;
+        }
+        .btn {
+            background-color: black;
+            border-radius: 0.25em;
+            color: black;
+            cursor: pointer;
+            padding: 0.375em 0.75em;
+            transition:
+                background-color calc(var(--trans-dur) / 2) linear,
+                color var(--trans-dur);
+            -webkit-tap-highlight-color: transparent;
+        }
+        .btn:hover {
+            background-color: black;
+        }
+        .btn-group {
+            display: flex;
+            gap: 0.375em;
+            margin-bottom: 1.5em;
+        }
+        .timeline {
+            left: 0;
+
+            width: 100%;
+            max-width: 25em;
+        }
+        .timeline__arrow {
+            background-image: url('https://cdn-icons-png.flaticon.com/512/7893/7893360.png');
+            color:black;
+            border-radius: 0.25em;
+            cursor: pointer;
+            flex-shrink: 0;
+            margin-inline-end: 0.25em;
+            outline: transparent;
+            width: 2em;
+            height: 2em;
+            transition:
+                background-color calc(var(--trans-dur) / 2) linear,
+                color var(--trans-dur);
+            -webkit-appearance: none;
+            appearance: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .timeline__arrow:focus-visible,
+        .timeline__arrow:hover {
+            background-color: hsl(var(--hue),10%,50%,0.4);
+        }
+        .timeline__arrow-icon {
+            display: block;
+            pointer-events: none;
+            transform: rotate(-90deg);
+            transition: transform var(--trans-dur) var(--trans-timing);
+            width: 100%;
+            height: auto;
+            stroke: #000000; /* Черный цвет стрелок */
+            color:black;
+        }
+        .timeline__date {
+            font-size: 0.833em;
+            line-height: 2.4;
+        }
+        .timeline__dot {
+            background-color: black;
+            border-radius: 50%;
+            display: inline-block;
+            flex-shrink: 0;
+            margin: 0.625em 0;
+            margin-inline-end: 1em;
+            position: relative;
+            width: 0.75em;
+            height: 0.75em;
+        }
+        .timeline__item {
+            position: relative;
+            padding-bottom: 2.25em;
+        }
+        .timeline__item:not(:last-child):before {
+            background-color: currentColor;
+            content: "";
+            display: block;
+            position: absolute;
+            top: 1em;
+            left: 2.625em;
+            width: 0.125em;
+            height: 100%;
+            transform: translateX(-50%);
+        }
+        [dir="rtl"] .timeline__arrow-icon {
+            transform: rotate(90deg);
+        }
+        [dir="rtl"] .timeline__item:not(:last-child):before {
+            right: 2.625em;
+            left: auto;
+            transform: translateX(50%);
+        }
+        .timeline__item-header {
+            display: flex;
+        }
+        .timeline__item-body {
+            border-radius: 0.375em;
+            overflow: hidden;
+            margin-top: 0.5em;
+            margin-inline-start: 4em;
+            height: 0;
+        }
+        .timeline__item-body-content {
+            background-color: hsl(var(--hue),10%,50%,0.2);
+            opacity: 0;
+            padding: 0.5em 0.75em;
+            visibility: hidden;
+            transition:
+                opacity var(--trans-dur) var(--trans-timing),
+                visibility var(--trans-dur) steps(1,end);
+        }
+        .timeline__meta {
+            width: 100%;
+        }
+        .timeline__title {
+            font-size: 1.5em;
+            line-height: 1.333;
+        }
+        /* Expanded state */
+        .timeline__item-body--expanded {
+            height: auto;
+        }
+        .timeline__item-body--expanded .timeline__item-body-content {
+            opacity: 1;
+            visibility: visible;
+            transition-delay: var(--trans-dur), 0s;
+        }
+        .timeline__arrow[aria-expanded="true"] .timeline__arrow-icon {
+            transform: rotate(0);
+        }
+
+
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
     {% include "components/nav.html" %}
-    <div style="bottom: 5%" class="image-container">
-    <img class="image1" src="{% static '186mtH7yTBZbRG8HSHtk6Y.jpg' %}" alt="Image 1">
-    <img class="image2" src="{% static 'b80c626ad80f8079aedb73662e9a7c3c_w200.gif' %}" alt="Image 2">
-    <h1>Добро пожаловать</h1>
+
+
+
+ <h1 style="text-align: center">Гайды</h1>
+
+  <div class="box-container">
+	<div class="box-item">
+    <div class="flip-box">
+      <div class="flip-box-front text-center" style="background-image: url('https://img.freepik.com/free-photo/billie-dollar-money-background_1150-741.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1712793600&semt=ais');">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Деньги</h3>
+          <p>Деньги: обмен, стоимость, богатство, средство, измерение, сохранение, перемещение.</p>
+          <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img">
+        </div>
+      </div>
+      <div class="flip-box-back text-center" style="background-image: url('https://img.freepik.com/free-photo/billie-dollar-money-background_1150-741.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1712793600&semt=ais');">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Деньги</h3>
+          <p></p>
+          <a href="{% url 'money' %}" class="flip-box-button">Читать</a>
+        </div>
+      </div>
+    </div>
+	</div>
+	<div class="box-item">
+    <div class="flip-box">
+      <div class="flip-box-front text-center" style="background-image: url('https://img.freepik.com/free-vector/blockchain-technology-background-vector-in-gradient-blue_53876-112167.jpg');">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Блокчейн</h3>
+          <p>Децентрализованный реестр.</p>
+          <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img">
+        </div>
+      </div>
+      <div class="flip-box-back text-center" style="background-image: url('https://img.freepik.com/free-vector/blockchain-technology-background-vector-in-gradient-blue_53876-112167.jpg');">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Блокчейн</h3>
+          <p>Децентрализованный реестр.</p>
+          <a href="{% url 'blockchain' %}" class="flip-box-button">Читать</a>
+        </div>
+      </div>
+    </div>
+	</div>
+	<div class="box-item">
+    <div class="flip-box">
+      <div class="flip-box-front text-center filter-" style="background-image: url('https://img.freepik.com/premium-vector/decentralized-finance-defi-on-dark-blue-background_387612-15.jpg');">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Defi</h3>
+          <p>Децентрализованные финансы</p>
+          <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img">
+        </div>
+      </div>
+      <div class="flip-box-back text-center" style="background-image: url('https://img.freepik.com/premium-vector/decentralized-finance-defi-on-dark-blue-background_387612-15.jpg');">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Defi</h3>
+          <p>Децентрализованные финансы</p>
+          <a href="{% url 'defi' %}" class="flip-box-button">Читать</a>
+        </div>
+      </div>
+    </div>
+	</div>
+    <div class="box-item">
+        <div class="flip-box">
+          <div class="flip-box-front text-center filter-" style="background-image: url('https://s.pfst.net/2017.06/526483867567fbde5eff180219eb764d28681e5a0b1a_b.jpg');">
+            <div class="inner color-white">
+              <h3 class="flip-box-header">Монеты</h3>
+              <p>Цифровые активы и их представления.</p>
+              <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img">
+            </div>
+          </div>
+          <div class="flip-box-back text-center" style="background-image: url('https://s.pfst.net/2017.06/526483867567fbde5eff180219eb764d28681e5a0b1a_b.jpg');">
+            <div class="inner color-white">
+              <h3 class="flip-box-header">Монеты</h3>
+              <p>Цифровые активы и их представления.</p>
+              <a href="{% url 'coins' %}" class="flip-box-button">Читать</a>
+            </div>
+          </div>
+        </div>
+        </div>
 </div>
-
-  <div style=" margin-left: 42%" class="element-animation">
-    <span style="">Введение</span>
-  </div>
-  <div class="container">
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <img style="width: 120px" src="https://cdn-icons-png.flaticon.com/512/1183/1183612.png">
-                    <h3>Блокчейн</h3>
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>Блокчейн - это защищенная криптографически база данных из блоков, связанных друг с другом.</p>
-
-                </div>
-            </div>
+<div class="box-container">
+	<div class="box-item">
+    <div class="flip-box">
+      <div class="flip-box-front text-center" style="background-image: url('https://cdn.gihub.org/umbraco/media/3988/fx-image.jpeg');">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Обмены</h3>
+          <p>Обмен активами без посредников.</p>
+          <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img">
         </div>
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <img style="font-size: 100px; margin-top: 10%" src="{% static 'ad6321c7ce933267f4676c65d487daf9.png'%}">
-                    <h3 style="margin-bottom: 20%">Деньги</h3>
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>Де́ньги — всеобщий эквивалент, выступающий измерителем стоимости товаров или услуг, легко на них обменивающийся.</p>
-
-                </div>
-            </div>
+      </div>
+      <div class="flip-box-back text-center" style="background-image: url('https://cdn.gihub.org/umbraco/media/3988/fx-image.jpeg');">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Обмены</h3>
+          <p>Обмен активами без посредников.</p>
+          <a href="{% url 'exchanges' %}" class="flip-box-button">Читать</a>
         </div>
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <img style="width: 250px; padding-right: 15%; margin-top: 10%;" src="{% static 'scale_1200.png' %}">
-                    <h3 style="margin-bottom: 20%">Defi</h3>
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>DeFi ― это экосистема децентрализованных финансовых сервисов и приложений на базе публичных блокчейнов.</p>
-
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <img style="width: 200px; height: 150px; " src="https://pngimg.com/d/coin_PNG36871.png">
-                    <h3 style="%">Монеты</h3>
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>Монеты – это любой вид валюты в цифровой или виртуальной форме;</p>
-
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-
-    <div style="margin-top: 3%" class="container">
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <img style="" src="https://freepngimg.com/save/48799-exchange-free-clipart-hq/449x342">
-                    <h3>Обмены</h3>
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>Обмен криптовалют — это процесс покупки или продажи цифровых активов за крипто- или государственную валюту.</p>
-
-                </div>
-            </div>
+	</div>
+	<div class="box-item">
+    <div class="flip-box">
+      <div class="flip-box-front text-center" style="background-image: url('https://miro.medium.com/max/1400/1*44q8hFmsXZHMANUVM0Sumw.jpeg');">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Solidity</h3>
+          <p>Языки программирования для смарт-контрактов.</p>
+          <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img">
         </div>
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <img style="width: 150px; height: 120px;  margin-top: 10%" src="https://icons.veryicon.com/png/o/business/work-circle/solidity.png">
-                    <h3 style="margin-bottom: 20%">Solidity</h3>
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>Solidity - это язык программирования, специально разработанный для написания смарт-контрактов на платформе Ethereum.</p>
-
-                </div>
-            </div>
+      </div>
+      <div class="flip-box-back text-center" style="background-image: url('https://miro.medium.com/max/1400/1*44q8hFmsXZHMANUVM0Sumw.jpeg');">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Solidity</h3>
+          <p>Языки программирования для смарт-контрактов.</p>
+          <a href="{% url 'solidity' %}" class="flip-box-button">Читать</a>
         </div>
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <img style="width: 150px; padding-right: 5%; margin-top: 10%;" src="https://cryptologos.cc/logos/bnb-bnb-logo.png">
-                    <h3 style="margin-bottom: 20%">Vyper</h3>
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>Lorem ipsum dVyper — это контрактно-ориентированный питонический язык программирования, предназначенный для виртуальной машины Ethereum.</p>
-
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <img style="width: 200px; height: 150px; " src="https://static.vecteezy.com/system/resources/previews/009/394/619/original/3d-illustration-bitcoin-banking-png.png">
-                    <h3 style="%">Банк</h3>
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>Криптобанки - это децентрализованные платформы, которые сочетают в себе черты бирж, обменников и сервисов p2p-кредитования.</p>
-
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+	</div>
+	<div class="box-item">
+    <div class="flip-box">
+      <div class="flip-box-front text-center filter-" style="background-image: url('https://www.securities.io/wp-content/uploads/2023/12/Top-10-Blockchain-Programming-Languages-e1701898449879.png');">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Vyper</h3>
+          <p>Языки программирования для смарт-контрактов.</p>
+          <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img">
+        </div>
+      </div>
+      <div class="flip-box-back text-center" style="background-image: url('https://www.securities.io/wp-content/uploads/2023/12/Top-10-Blockchain-Programming-Languages-e1701898449879.png');">
+        <div class="inner color-white">
+          <h3 class="flip-box-header">Vyper</h3>
+          <p>Языки программирования для смарт-контрактов.</p>
+          <a href="{% url 'vyper' %}" class="flip-box-button">Читать</a>
+        </div>
+      </div>
+    </div>
+	</div>
+    <div class="box-item">
+        <div class="flip-box">
+          <div class="flip-box-front text-center filter-" style="background-image: url('https://kartinki.pics/uploads/posts/2021-07/thumbs/1626159582_56-kartinkin-com-p-bank-fon-krasivo-62.jpg');">
+            <div class="inner color-white">
+              <h3 class="flip-box-header">Банк</h3>
+              <p>Финансовые услуги и операции.</p>
+              <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img">
+            </div>
+          </div>
+          <div class="flip-box-back text-center" style="background-image: url('https://kartinki.pics/uploads/posts/2021-07/thumbs/1626159582_56-kartinkin-com-p-bank-fon-krasivo-62.jpg');">
+            <div class="inner color-white">
+              <h3 class="flip-box-header">Банк</h3>
+              <p>Финансовые услуги и операции.</p>
+
+            </div>
+          </div>
+        </div>
+        </div>
+</div>
     <hr>
-    <h1 style="margin-left:43%;">Спонсоры</h1>
-<div style="margin-top: 10%" class="container3">
+    <h1 style="text-align: center">Последние посты</h1>
+<div style="display: flex; flex-wrap: nowrap;">
+    <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 5%;">
+     <div id="timeline" class="timeline">
+	{% for post in first_three_posts %}
+        <div class="timeline__item">
+            <div style="color:black;" class="timeline__item-header">
+                <button style="color:black;" class="timeline__arrow" type="button" id="item{{ post.id }}" aria-labelledby="item{{ post.id }}-name" aria-expanded="false" aria-controls="item{{ post.id }}-ctrld" aria-haspopup="true" data-item="{{ post.id }}">
+                    <svg style="color:black;" class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                        <use style="color:black;" href="#arrow" />
+                    </svg>
+                </button>
+                <span class="timeline__dot"></span>
+                <span id="item{{ post.id }}-name" class="timeline__meta">
 
-<div style="margin-left: 17%" class="icons">
-  <div class="icon icon--css" data-hue="15" style="--icon: url(https://simpleicons.org/icons/svelte.svg);">
-    <img src="https://simpleicons.org/icons/svelte.svg" alt="" />
-    <canvas></canvas>
-  </div>
-  <div class="icon icon--css" style="--icon: url(https://simpleicons.org/icons/nextdotjs.svg);">
-    <img src="https://simpleicons.org/icons/nextdotjs.svg" alt="" />
-    <canvas></canvas>
-  </div>
-  <div class="icon icon--css" data-hue="193" style="--icon: url(https://simpleicons.org/icons/react.svg);">
-    <img src="https://simpleicons.org/icons/react.svg" alt="" />
-    <canvas></canvas>
-  </div>
-  <div class="icon icon--css" data-hue="153" style="--icon: url(https://simpleicons.org/icons/vuedotjs.svg);">
-    <img src="https://simpleicons.org/icons/vuedotjs.svg" alt="" />
-    <canvas></canvas>
-  </div>
-  <div class="icon icon--css" style="--icon: url(https://simpleicons.org/icons/remix.svg);">
-    <img src="https://simpleicons.org/icons/remix.svg" alt="" />
-    <canvas></canvas>
-  </div>
-  <div class="icon icon--css" data-hue="347" style="--icon: url(https://simpleicons.org/icons/angular.svg);">
-    <img src="https://simpleicons.org/icons/angular.svg" alt="" />
-    <canvas></canvas>
-  </div>
+                    <a style="text-decoration: none; color: black" href="{% url 'post1' post.id %}"><strong class="timeline__title">{{ post.title }}</strong></a>
+                </span>
+            </div>
+            <div class="timeline__item-body" id="item{{ post.id }}-ctrld" role="region" aria-labelledby="item{{ post.id }}" aria-hidden="true">
+                <div class="timeline__item-body-content">
+                    <p class="timeline__item-p">{{ post.description }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
 </div>
-   </div>
-<div class="container15">
-  <footer class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="{% url 'home' %}" class="nav-link px-2 text-body-secondary">Главная</a></li>
-      <li class="nav-item"><a href="{% url 'money' %}" class="nav-link px-2 text-body-secondary">Деньги</a></li>
-    </ul>
-    <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
-  </footer>
+     <div style="margin-left: 5%" id="timeline" class="timeline">
+	{% for post in second_three_posts %}
+        <div class="timeline__item">
+            <div style="color:black;" class="timeline__item-header">
+                <button style="color:black;" class="timeline__arrow" type="button" id="item{{ post.id }}" aria-labelledby="item{{ post.id }}-name" aria-expanded="false" aria-controls="item{{ post.id }}-ctrld" aria-haspopup="true" data-item="{{ post.id }}">
+                    <svg style="color:black;" class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                        <use style="color:black;" href="#arrow" />
+                    </svg>
+                </button>
+                <span class="timeline__dot"></span>
+                <span id="item{{ post.id }}-name" class="timeline__meta">
+
+                    <a style="text-decoration: none; color: black" href="{% url 'post1' post.id %}"><strong class="timeline__title">{{ post.title }}</strong></a>
+                </span>
+            </div>
+
+        </div>
+    {% endfor %}
 </div>
+     <div style="margin-left: 5%" id="timeline" class="timeline">
+	{% for post in third_three_posts %}
+        <div class="timeline__item">
+            <div style="color:black;" class="timeline__item-header">
+                <button style="color:black;" class="timeline__arrow" type="button" id="item{{ post.id }}" aria-labelledby="item{{ post.id }}-name" aria-expanded="false" aria-controls="item{{ post.id }}-ctrld" aria-haspopup="true" data-item="{{ post.id }}">
+                    <svg style="color:black;" class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                        <use style="color:black;" href="#arrow" />
+                    </svg>
+                </button>
+                <span class="timeline__dot"></span>
+                <span id="item{{ post.id }}-name" class="timeline__meta">
+
+                    <a style="text-decoration: none; color: black" href="{% url 'post1' post.id %}"><strong class="timeline__title">{{ post.title }}</strong></a>
+                </span>
+            </div>
+            <div class="timeline__item-body" id="item{{ post.id }}-ctrld" role="region" aria-labelledby="item{{ post.id }}" aria-hidden="true">
+                <div class="timeline__item-body-content">
+                    <p class="timeline__item-p">{{ post.description }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+
+    </div>
+</div>
+{% include "components/footer.html" %}
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 <script>
+    window.addEventListener("DOMContentLoaded",() => {
+	const ctl = new CollapsibleTimeline("#timeline");
+});
+
+class CollapsibleTimeline {
+	constructor(el) {
+		this.el = document.querySelector(el);
+
+		this.init();
+	}
+	init() {
+		this.el?.addEventListener("click",this.itemAction.bind(this));
+	}
+	animateItemAction(button, ctrld, contentHeight, shouldCollapse) {
+    const expandedClass = "timeline__item-body--expanded";
+    const animOptions = {
+        duration: 300,
+        easing: "cubic-bezier(0.65,0,0.35,1)"
+    };
+
+    if (shouldCollapse) {
+        button.ariaExpanded = "false";
+        ctrld.ariaHidden = "true";
+        ctrld.classList.remove(expandedClass);
+        animOptions.duration *= 2;
+        const collapseAnimation = ctrld.animate([
+            { height: `${contentHeight}px` },
+            { height: "0px" }
+        ], animOptions);
+        collapseAnimation.onfinish = () => {
+            ctrld.style.height = "0px"; // Ensure element stays collapsed after animation finishes
+        };
+    } else {
+        button.ariaExpanded = "true";
+        ctrld.ariaHidden = "false";
+        ctrld.classList.add(expandedClass);
+        const expandAnimation = ctrld.animate([
+            { height: "0px" },
+            { height: `${contentHeight}px` }
+        ], animOptions);
+        expandAnimation.onfinish = () => {
+            ctrld.style.height = "auto"; // Ensure element expands to its full height after animation finishes
+        };
+    }
+}
+	itemAction(e) {
+    const { target } = e;
+    const action = target?.getAttribute("data-action");
+    const item = target?.getAttribute("data-item");
+
+    if (action) {
+        const targetExpanded = action === "expand" ? "false" : "true";
+        const buttons = Array.from(this.el?.querySelectorAll(`[aria-expanded="${targetExpanded}"]`));
+        const wasExpanded = action === "collapse";
+
+        buttons.forEach((button) => {
+            const buttonID = button.getAttribute("data-item");
+            const ctrld = this.el?.querySelector(`#item${buttonID}-ctrld`);
+            const contentHeight = ctrld.firstElementChild?.offsetHeight;
+
+            this.animateItemAction(button, ctrld, contentHeight, wasExpanded);
+        });
+    } else if (item) {
+        const button = this.el?.querySelector(`[data-item="${item}"]`);
+        const expanded = button?.getAttribute("aria-expanded");
+
+        if (!expanded) return;
+
+        const wasExpanded = expanded === "true";
+        const ctrld = this.el?.querySelector(`#item${item}-ctrld`);
+        const contentHeight = ctrld.firstElementChild?.offsetHeight;
+
+        this.animateItemAction(button, ctrld, contentHeight, wasExpanded);
+        }
+    }
+}
+</script>
+        <script>
     import { GUI } from 'https://cdn.skypack.dev/dat.gui'
 import gsap from 'https://cdn.skypack.dev/gsap@3.11.0'
 const CANVAS = document.querySelector('canvas')

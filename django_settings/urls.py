@@ -7,9 +7,10 @@ from django.urls import path, include, re_path
 
 
 urlpatterns = [
+    path("grappelli/", include("grappelli.urls")),
     path("admin/", admin.site.urls),
     path("", include("django_app.urls")),
-    path("i18n/", include("django.conf.urls.i18n")),
+
 
 ]
 

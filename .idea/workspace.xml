@@ -5,133 +5,335 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19ef7c83-5068-416f-9f34-aff43c6eaa71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/django_app/translation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/components/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/components/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/components/paginator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/crypto/coins.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/crypto/exchanges.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/crypto/solidity.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/money.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post100_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post10_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post11_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post12_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post13_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post14_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post15_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post16_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post17_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post18_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post19_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post1_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post20_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post21_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post22_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post23_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post24_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post25_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post26_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post27_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post28_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post29_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post2_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post30_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post31_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post32_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post332_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post333_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post334_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post335_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post336_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post337_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post338_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post339_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post33_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post340_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post341_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post342_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post343_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post344_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post345_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post346_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post34_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post35_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post36_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post37_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post38_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post39_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post3_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post40_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post41_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post42_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post43_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post44_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post45_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post46_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post47_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post48_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post49_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post4_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post50_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post51_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post52_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post53_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post54_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post55_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post56_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post57_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post58_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post59_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post5_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post60_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post61_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post62_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post63_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post64_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post65_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post66_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post67_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post68_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post69_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post6_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post70_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post71_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post72_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post73_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post74_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post75_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post76_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post77_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post78_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post79_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post7_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post80_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post81_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post82_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post83_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post84_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post85_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post86_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post87_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post88_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post89_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post8_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post90_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post91_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post92_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post93_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post94_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post95_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post96_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post97_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post98_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post99_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/posts/post9_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/crypto/vyper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post122_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post123_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post124_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post125_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post126_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post127_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post128_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post129_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post130_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post131_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post132_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post133_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post134_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post135_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post136_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post137_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post138_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post139_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post140_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post141_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post142_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post143_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post144_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post145_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post146_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post147_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post148_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post149_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post150_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post151_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post152_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post153_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post154_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post155_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post156_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post157_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post158_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post159_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post160_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post161_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post162_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post163_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post164_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post165_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post166_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post167_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post168_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post169_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post170_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post171_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post173_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post174_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post175_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post176_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post177_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post178_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post179_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post180_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post181_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post182_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post183_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post184_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post185_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post186_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post187_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post188_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post189_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post190_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post191_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post192_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post193_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post194_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post195_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post196_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post197_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post198_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post199_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post200_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post201_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post202_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post203_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post204_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post205_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post206_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post207_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post208_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post209_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post210_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post211_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post212_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post213_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post214_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post215_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post216_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post217_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post218_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post219_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post220_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post221_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post222_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post223_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post224_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post225_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post226_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post227_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post228_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post229_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post230_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post231_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post232_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post233_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post234_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post235_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post236_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post237_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post238_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post239_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post240_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post241_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post242_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post243_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post244_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post245_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post246_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post247_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post248_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post249_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post250_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post251_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post252_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post253_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post254_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post255_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post256_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post257_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post258_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post259_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post260_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post261_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post262_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post263_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post264_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post265_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post266_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post267_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post268_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post269_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post270_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post271_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post272_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post273_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post274_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post275_detali.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post276_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post277_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post278_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post279_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post280_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post281_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post282_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post283_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post284_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post285_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post286_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post287_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post288_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post289_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post290_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post291_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post292_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post293_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post294_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post295_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post296_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post297_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post298_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post299_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post300_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post301_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post302_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post303_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post304_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post305_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post306_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post307_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post308_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post309_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post310_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post311_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post312_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post313_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post314_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post315_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post316_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post317_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post318_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post319_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post320_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post321_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post322_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post323_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post324_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post325_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post326_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post327_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post328_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post329_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post330_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts/post331_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_settings/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_settings/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_settings/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_settings/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/components/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/components/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/crypto/blockchain.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/crypto/blockchain.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/crypto/coins.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/crypto/coins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/crypto/solidity.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/crypto/solidity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/money.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/money.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post100_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post100_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post10_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post10_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post11_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post11_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post12_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post12_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post13_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post13_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post14_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post14_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post15_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post15_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post16_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post16_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post17_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post17_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post18_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post18_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post19_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post19_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post1_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post1_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post20_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post20_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post21_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post21_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post22_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post22_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post23_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post23_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post24_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post24_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post25_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post25_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post26_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post26_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post27_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post27_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post28_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post28_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post29_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post29_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post2_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post2_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post30_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post30_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post31_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post31_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post32_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post32_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post33_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post33_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post343_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post343_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post344_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post344_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post345_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post345_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post346_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post346_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post34_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post34_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post35_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post35_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post36_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post36_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post37_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post37_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post38_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post38_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post39_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post39_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post3_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post3_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post40_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post40_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post41_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post41_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post42_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post42_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post43_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post43_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post44_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post44_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post45_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post45_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post46_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post46_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post47_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post47_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post48_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post48_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post49_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post49_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post4_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post4_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post50_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post50_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post51_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post51_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post52_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post52_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post53_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post53_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post54_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post54_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post55_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post55_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post56_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post56_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post57_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post57_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post58_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post58_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post59_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post59_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post5_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post5_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post60_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post60_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post61_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post61_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post62_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post62_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post63_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post63_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post64_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post64_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post65_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post65_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post66_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post66_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post67_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post67_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post68_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post68_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post69_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post69_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post6_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post6_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post70_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post70_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post71_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post71_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post72_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post72_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post73_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post73_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post74_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post74_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post75_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post75_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post76_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post76_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post77_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post77_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post78_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post78_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post79_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post79_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post7_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post7_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post80_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post80_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post81_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post81_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post82_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post82_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post83_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post83_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post84_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post84_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post85_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post85_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post86_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post86_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post87_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post87_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post88_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post88_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post89_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post89_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post8_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post8_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post90_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post90_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post91_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post91_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post92_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post92_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post93_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post93_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post94_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post94_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post95_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post95_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post96_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post96_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post97_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post97_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post98_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post98_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post99_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post99_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts/post9_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts/post9_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +376,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Documents/GitHub/crypto_site/manage.py&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Documents/GitHub/study_site&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -206,7 +408,20 @@
       <workItem from="1712483380391" duration="7580000" />
       <workItem from="1712584791957" duration="30898000" />
       <workItem from="1712726374667" duration="594000" />
-      <workItem from="1712751583287" duration="12033000" />
+      <workItem from="1712751583287" duration="17049000" />
+      <workItem from="1712811946324" duration="6809000" />
+      <workItem from="1712898012717" duration="8537000" />
+      <workItem from="1712922332020" duration="641000" />
+      <workItem from="1712992094304" duration="850000" />
+      <workItem from="1713253228101" duration="939000" />
+      <workItem from="1713336385645" duration="15514000" />
+      <workItem from="1713363402929" duration="26000" />
+      <workItem from="1713418821599" duration="9963000" />
+      <workItem from="1713446294208" duration="2840000" />
+      <workItem from="1713501930297" duration="12408000" />
+      <workItem from="1713538217549" duration="4391000" />
+      <workItem from="1713547454483" duration="1515000" />
+      <workItem from="1713593144331" duration="7935000" />
     </task>
     <servers />
   </component>
